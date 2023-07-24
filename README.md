@@ -40,7 +40,7 @@ This task involves setting up an infrastructure on AWS for a web application usi
 1. Update your `kubeconfig` file 
   
     ```bash
-    aws eks update-kubeconfig --name elmesary --region us-east-1
+    aws eks update-kubeconfig --name widebot-cluster --region us-east-1
     ```
 #### Clean up
 
