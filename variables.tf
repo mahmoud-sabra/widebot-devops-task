@@ -9,18 +9,18 @@ variable "vpc_cidr_block" {
 }
 
 variable "cluster_name" {
-  type        = string
+  type = string
 }
 
 variable "public_subnet_cidr_block" {
-  type        = list(string)
+  type = list(string)
 }
 
 variable "private_subnet_cidr_block" {
-  type        = list(string)
+  type = list(string)
 }
 variable "node_type" {
-  type = list(string)
+  type    = list(string)
   default = ["t3.small"]
 }
 variable "node_name" {
